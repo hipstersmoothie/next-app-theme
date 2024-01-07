@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "tshy",
-    "prepublish": "tshy",
+    "prerelease": "tshy",
     "release": "auto shipit"
   },
   "tshy": {
