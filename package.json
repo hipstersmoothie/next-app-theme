@@ -1,0 +1,56 @@
+{
+  "name": "next-app-theme",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Andrew Lisowski",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tshy"
+  },
+  "tshy": {
+    "exports": {
+      "./theme-script": "./src/theme-script.tsx",
+      "./use-theme": "./src/use-theme.ts"
+    }
+  },
+  "peerDependencies": {
+    "next": ">=13",
+    "react": ">=16"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tshy": "^1.8.2",
+    "tslib": "^2.6.2",
+    "typescript": "5.2"
+  },
+  "exports": {
+    "./theme-script": {
+      "import": {
+        "types": "./dist/esm/theme-script.d.ts",
+        "default": "./dist/esm/theme-script.js"
+      },
+      "require": {
+        "types": "./dist/commonjs/theme-script.d.ts",
+        "default": "./dist/commonjs/theme-script.js"
+      }
+    },
+    "./use-theme": {
+      "import": {
+        "types": "./dist/esm/use-theme.d.ts",
+        "default": "./dist/esm/use-theme.js"
+      },
+      "require": {
+        "types": "./dist/commonjs/use-theme.d.ts",
+        "default": "./dist/commonjs/use-theme.js"
+      }
+    }
+  },
+  "type": "module"
+}
