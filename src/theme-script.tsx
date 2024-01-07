@@ -47,7 +47,7 @@ const code = function () {
   setTheme(preferredTheme || (darkQuery.matches ? "dark" : "light"));
 };
 
-const getTheme = `console.log('??? 0');(${code})();`;
+const getTheme = `(${code})();`;
 
 export function ThemeScript() {
   return <Script>{getTheme}</Script>;
