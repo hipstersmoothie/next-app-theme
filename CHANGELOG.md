@@ -1,3 +1,16 @@
+# v0.1.2 (Sat Jan 06 2024)
+
+#### ⚠️ Pushed to `main`
+
+- remove default export (lisowski54@gmail.com)
+- tweak (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.1 (Sat Jan 06 2024)
 
 #### ⚠️ Pushed to `main`
