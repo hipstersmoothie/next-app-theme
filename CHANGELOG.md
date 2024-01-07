@@ -1,3 +1,16 @@
+# v0.1.3 (Sat Jan 06 2024)
+
+#### ⚠️ Pushed to `main`
+
+- add inspriration ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- remove console.log ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
 # v0.1.2 (Sat Jan 06 2024)
 
 #### ⚠️ Pushed to `main`
