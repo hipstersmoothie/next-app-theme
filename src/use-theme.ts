@@ -7,7 +7,7 @@ export function useTheme() {
 
   const toggleTheme = useCallback(() => {
     window?.__setPreferredTheme(theme === "light" ? "dark" : "light");
-  }, []);
+  }, [theme]);
 
   useEffect(() => {
     window.__onThemeChange = setTheme;
