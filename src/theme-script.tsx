@@ -49,6 +49,6 @@ const code = function () {
 
 const getTheme = `console.log('??? 0');(${code})();`;
 
-export default function ThemeScript() {
+export function ThemeScript() {
   return <Script>{getTheme}</Script>;
 }
