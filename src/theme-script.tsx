@@ -1,7 +1,4 @@
 import React from "react";
-// tshy can't resolve this for some reason
-// @ts-ignore
-import Script from "next/script";
 
 type Theme = "dark" | "light";
 
@@ -13,8 +10,8 @@ declare global {
   }
 }
 
-const code = function () {
-  window.__onThemeChange = function () {};
+function code() {
+  window.__onThemeChange = function () { };
 
   function setTheme(newTheme: Theme) {
     document.documentElement.classList.remove(window.__theme);
@@ -29,13 +26,13 @@ const code = function () {
 
   try {
     preferredTheme = localStorage.getItem("theme") as Theme;
-  } catch (err) {}
+  } catch (err) { }
 
   window.__setPreferredTheme = function (newTheme: Theme) {
     setTheme(newTheme);
     try {
       localStorage.setItem("theme", newTheme);
-    } catch (err) {}
+    } catch (err) { }
   };
 
   var darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
@@ -47,8 +44,6 @@ const code = function () {
   setTheme(preferredTheme || (darkQuery.matches ? "dark" : "light"));
 };
 
-const getTheme = `(${code})();`;
-
 export function ThemeScript() {
-  return <Script>{getTheme}</Script>;
+  return <script dangerouslySetInnerHTML={{ __html: `(${code})();` }} />;
 }
