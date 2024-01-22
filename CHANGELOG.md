@@ -1,3 +1,15 @@
+# v0.1.8 (Mon Jan 22 2024)
+
+#### ⚠️ Pushed to `main`
+
+- remove dep on next (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski (lisowski54@gmail.com)
+
+---
+
 # v0.1.7 (Sun Jan 21 2024)
 
 #### ⚠️ Pushed to `main`
