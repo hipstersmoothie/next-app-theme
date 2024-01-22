@@ -10,6 +10,18 @@
 
 ---
 
+# v0.1.5 (Sun Jan 21 2024)
+
+#### ⚠️ Pushed to `main`
+
+- add strat (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski (lisowski54@gmail.com)
+
+---
+
 # v0.1.4 (Sat Jan 06 2024)
 
 #### ⚠️ Pushed to `main`
