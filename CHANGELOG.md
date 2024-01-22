@@ -1,3 +1,15 @@
+# v0.1.7 (Sun Jan 21 2024)
+
+#### ⚠️ Pushed to `main`
+
+- switch to script tag (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski (lisowski54@gmail.com)
+
+---
+
 # v0.1.5 (Sun Jan 21 2024)
 
 #### ⚠️ Pushed to `main`
