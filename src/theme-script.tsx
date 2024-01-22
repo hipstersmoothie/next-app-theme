@@ -50,5 +50,5 @@ const code = function () {
 const getTheme = `(${code})();`;
 
 export function ThemeScript() {
-  return <Script>{getTheme}</Script>;
+  return <Script strategy="beforeInteractive">{getTheme}</Script>;
 }
