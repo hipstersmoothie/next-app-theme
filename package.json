@@ -3,6 +3,7 @@
   "version": "0.1.7",
   "license": "MIT",
   "author": "Andrew Lisowski",
+  "repository": "hipstersmoothie/next-app-theme",
   "files": [
     "dist",
     "src"
@@ -19,7 +20,6 @@
     }
   },
   "peerDependencies": {
-    "next": ">=13",
     "react": ">=16"
   },
   "devDependencies": {
@@ -27,7 +27,6 @@
     "@types/react-dom": "^18.2.18",
     "auto": "^11.0.4",
     "auto-config-hipstersmoothie": "^4.0.0",
-    "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tshy": "^1.8.2",

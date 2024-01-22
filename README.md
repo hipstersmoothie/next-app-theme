@@ -5,6 +5,8 @@ Simple theming for Next.js apps using the App Directory.
 - No flashing on page load
 - Works with tailwind
 
+> NOTE: You can actually use this package outside of Next.js. In essence it'js just a script that executes in the head of your page. So you can just use `ThemeScript` and the global `__setPreferredTheme`.
+
 ## Installation
 
 ```bash

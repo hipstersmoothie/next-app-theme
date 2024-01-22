@@ -1,7 +1,4 @@
 import React from "react";
-// tshy can't resolve this for some reason
-// @ts-ignore
-import Script from "next/script";
 
 type Theme = "dark" | "light";
 
