@@ -3,7 +3,9 @@
 import { useState, useEffect, useCallback } from "react";
 
 export function useTheme() {
-  const [theme, setTheme] = useState(window?.__theme || "light");
+  const [theme, setTheme] = useState(
+    typeof window === "undefined" ? "light" : window.__theme || "light"
+  );
 
   const toggleTheme = useCallback(() => {
     window?.__setPreferredTheme(theme === "light" ? "dark" : "light");
