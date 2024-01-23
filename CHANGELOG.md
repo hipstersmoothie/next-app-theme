@@ -1,3 +1,15 @@
+# v0.1.9 (Tue Jan 23 2024)
+
+#### ⚠️ Pushed to `main`
+
+- make ssr compatible (lisowski54@gmail.com)
+
+#### Authors: 1
+
+- Andrew Lisowski (lisowski54@gmail.com)
+
+---
+
 # v0.1.8 (Mon Jan 22 2024)
 
 #### ⚠️ Pushed to `main`
