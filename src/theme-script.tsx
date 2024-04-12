@@ -10,6 +10,8 @@ declare global {
   }
 }
 
+const localStorageKey = "__PREFERRED_THEME__"
+
 const code = function () {
   window.__onThemeChange = function () {};
 
@@ -25,13 +27,13 @@ const code = function () {
   var preferredTheme;
 
   try {
-    preferredTheme = localStorage.getItem("theme") as Theme;
+    preferredTheme = localStorage.getItem(localStorageKey) as Theme;
   } catch (err) {}
 
   window.__setPreferredTheme = function (newTheme: Theme) {
     setTheme(newTheme);
     try {
-      localStorage.setItem("theme", newTheme);
+      localStorage.setItem(localStorageKey, newTheme);
     } catch (err) {}
   };
 
