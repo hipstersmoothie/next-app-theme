@@ -60,7 +60,7 @@ import { useTheme } from "next-app-theme/use-theme";
 import { Sun, Moon } from "lucide-react";
 
 function ThemeToggle() {
-  const { theme, toggleThem } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const icon = theme === "dark" ? <Sun /> : <Moon />;
 
   return <button onClick={toggleThem}>{icon}</button>;
