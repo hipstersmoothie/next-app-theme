@@ -1,3 +1,20 @@
+# v0.1.11 (Fri Aug 16 2024)
+
+#### 🐛 Bug Fix
+
+- Use a constant for localStorage [#3](https://github.com/hipstersmoothie/next-app-theme/pull/3) ([@willium](https://github.com/willium))
+
+#### ⚠️ Pushed to `main`
+
+- fix #4 ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 2
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- William Wolf ([@willium](https://github.com/willium))
+
+---
+
 # v0.1.9 (Tue Jan 23 2024)
 
 #### ⚠️ Pushed to `main`
